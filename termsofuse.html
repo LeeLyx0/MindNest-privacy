@@ -1,128 +1,206 @@
-# MindNest Terms of Use
+<!DOCTYPE html>
 
-**Effective Date:** April 27, 2026
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindNest Terms of Use</title>
+  <style>
+    :root {
+      --bg1: #f6fbf8;
+      --bg2: #eef7f2;
+      --card: rgba(255,255,255,0.82);
+      --text: #203229;
+      --muted: #5a6e63;
+      --accent: #6da88a;
+      --accent-dark: #4f866b;
+      --border: rgba(109,168,138,0.20);
+      --shadow: 0 18px 45px rgba(48, 86, 67, 0.12);
+    }
 
-Welcome to MindNest. These Terms of Use ("Terms") govern your access to and use of the MindNest mobile application and related services (the "Service"). By using MindNest, you agree to these Terms.
+```
+* { box-sizing: border-box; }
 
-If you do not agree with these Terms, please do not use the Service.
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(146, 197, 168, 0.22), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(109, 168, 138, 0.18), transparent 28%),
+    linear-gradient(180deg, var(--bg1), var(--bg2));
+  min-height: 100vh;
+  line-height: 1.6;
+}
 
----
+.wrap {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 56px;
+}
 
-## 1. About MindNest
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 32px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(244,251,247,0.86));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  margin-bottom: 22px;
+}
 
-MindNest is a mental wellness and self-reflection app designed to help users track moods, emotions, thoughts, and personal wellbeing through journaling, emotional check-ins, and related features.
+.leaf {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  opacity: 0.18;
+  background: radial-gradient(circle at 30% 30%, #8dc0a2, #5d9375);
+}
 
-MindNest is intended for personal wellbeing support only and is not a substitute for professional medical, psychiatric, or therapeutic advice, diagnosis, or treatment.
+.leaf.one { top: -60px; right: -30px; }
+.leaf.two { bottom: -80px; left: -50px; }
 
----
+.badge {
+  display: inline-flex;
+  padding: 8px 14px;
+  background: rgba(109, 168, 138, 0.12);
+  color: var(--accent-dark);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
 
-## 2. Eligibility
+h1 {
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.05;
+  margin: 0 0 12px;
+  letter-spacing: -0.03em;
+}
 
-You must be at least 13 years old to use MindNest. If you are under the age of majority in your jurisdiction, you must have permission from a parent or legal guardian.
+.hero p {
+  max-width: 700px;
+  font-size: 18px;
+  color: var(--muted);
+  margin: 0;
+}
 
----
+.card {
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 30px;
+}
 
-## 3. Accounts
+h2 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 24px;
+}
 
-You may create an account using email/password or supported third-party login providers such as Google or Apple Sign-In.
+h3 {
+  margin-top: 28px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
 
-You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account.
+p, li {
+  color: var(--muted);
+  font-size: 16px;
+}
 
-You agree to provide accurate and complete information when creating your account.
+ul {
+  padding-left: 20px;
+}
 
----
+a {
+  color: var(--accent-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
 
-## 4. Subscriptions and Payments
+a:hover {
+  text-decoration: underline;
+}
 
-Some features of MindNest may require a paid subscription.
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 22px;
+  padding: 6px;
+}
+```
 
-Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period.
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="leaf one"></div>
+      <div class="leaf two"></div>
+      <div class="badge">MindNest Terms</div>
+      <h1>Terms of Use</h1>
+      <p>
+        These Terms of Use govern your access to and use of MindNest, including subscriptions,
+        accounts, and use of our mental wellness and journaling features.
+      </p>
+    </section>
 
-Payment will be charged to your Apple App Store or Google Play account at confirmation of purchase.
+```
+<section class="card">
+  <h2>Effective Date: April 27, 2026</h2>
 
-Your account will be charged for renewal within 24 hours prior to the end of the current period.
+  <h3>1. About MindNest</h3>
+  <p>MindNest is a mental wellness and self-reflection app designed to help users track moods, emotions, thoughts, and personal wellbeing. It is not a substitute for professional medical or therapeutic advice.</p>
 
-You can manage and cancel subscriptions through your App Store or Google Play account settings after purchase.
+  <h3>2. Eligibility</h3>
+  <p>You must be at least 13 years old to use MindNest. If you are under the age of majority in your country, you must have permission from a parent or legal guardian.</p>
 
-No refunds will be provided except where required by applicable law or by Apple or Google platform policies.
+  <h3>3. Accounts</h3>
+  <p>You may create an account using email/password or supported login providers such as Google or Sign in with Apple. You are responsible for maintaining the security of your account.</p>
 
----
+  <h3>4. Subscriptions and Payments</h3>
+  <p>Some features require a paid subscription. Subscriptions automatically renew unless cancelled at least 24 hours before the current billing period ends.</p>
+  <p>Payments are charged through your Apple App Store or Google Play account. Subscription management and cancellation must be handled through your store account settings.</p>
 
-## 5. Acceptable Use
+  <h3>5. Acceptable Use</h3>
+  <ul>
+    <li>Do not use the app for unlawful purposes</li>
+    <li>Do not attempt unauthorized access</li>
+    <li>Do not interfere with service operation</li>
+    <li>Do not upload harmful or malicious content</li>
+  </ul>
 
-You agree not to:
+  <h3>6. Health Disclaimer</h3>
+  <p>MindNest is not a medical service. If you are experiencing a mental health crisis, please contact emergency services or a qualified healthcare professional immediately.</p>
 
-* Use the Service for unlawful purposes
-* Attempt to gain unauthorized access to the Service or related systems
-* Interfere with the proper operation of the Service
-* Upload malicious code, spam, or harmful content
-* Misuse community or support features if provided
+  <h3>7. Privacy</h3>
+  <p>Your use of the app is also governed by our Privacy Policy.</p>
 
-We reserve the right to suspend or terminate accounts that violate these Terms.
+  <h3>8. Limitation of Liability</h3>
+  <p>To the fullest extent permitted by law, MindNest is not liable for indirect, incidental, or consequential damages resulting from use of the Service.</p>
 
----
+  <h3>9. Apple Standard EULA</h3>
+  <p>For subscriptions purchased through Apple, Apple’s standard End User License Agreement may also apply:</p>
+  <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">View Apple Standard EULA</a></p>
 
-## 6. Health Disclaimer
+  <h3>10. Contact</h3>
+  <p>
+    For questions regarding these Terms, contact us at:<br>
+    <a href="mailto:mindnestdeveloper@gmail.com">mindnestdeveloper@gmail.com</a>
+  </p>
+</section>
 
-MindNest is not a medical service.
+<div class="footer">
+  © 2026 MindNest. All rights reserved.
+</div>
+```
 
-The content, tools, and features provided are for informational and self-reflection purposes only and do not constitute medical advice.
-
-If you are experiencing a mental health crisis or require urgent support, please contact a qualified healthcare professional or emergency services immediately.
-
----
-
-## 7. Privacy
-
-Your use of the Service is also governed by our Privacy Policy.
-
-Please review our Privacy Policy to understand how we collect, use, and protect your information.
-
----
-
-## 8. Intellectual Property
-
-All content, branding, design, software, and related intellectual property within MindNest are owned by MindNest or its licensors and are protected by applicable laws.
-
-You may not copy, modify, distribute, or reverse engineer any part of the Service without prior written permission.
-
----
-
-## 9. Termination
-
-We may suspend or terminate your access to MindNest at any time if you violate these Terms or if necessary to protect the integrity of the Service.
-
-You may stop using the Service at any time.
-
----
-
-## 10. Limitation of Liability
-
-To the fullest extent permitted by law, MindNest shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Service.
-
-Use of the Service is at your own risk.
-
----
-
-## 11. Changes to These Terms
-
-We may update these Terms from time to time.
-
-If we make material changes, we will update the Effective Date above. Continued use of the Service after changes means you accept the revised Terms.
-
----
-
-## 12. Contact
-
-If you have questions about these Terms, please contact:
-
-**MindNest Support**
-Email: [mindnestdeveloper@gmail.com](mailto:mindnestdeveloper@gmail.com)
-
----
-
-## Apple Standard EULA
-
-For subscriptions purchased through Apple, Apple’s Standard End User License Agreement (EULA) may also apply:
-
-[https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+  </div>
+</body>
+</html>
